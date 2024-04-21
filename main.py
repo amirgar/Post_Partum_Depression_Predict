@@ -90,6 +90,9 @@ rfc = RandomForestClassifier(random_state=95)
 rfc.fit(x_train, y_train)
 y_pred = rfc.predict(x_test)
 
+# Parameters: Age, FSOT, ITBP, TSAN, PCMD, OLOA, FA, FOG, PBWB, SA
+
+
 '''
 Model accuracy score with 10 decision-trees : 0.9860
 Model accuracy score with Random Forest: 0.993006993006993
